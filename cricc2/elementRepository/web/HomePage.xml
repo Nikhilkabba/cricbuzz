@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Element name="archivesButton">
+		<param type="XPATH"
+			value="//a[contains(text(),'Archives')]" />
+	</Element>'
+	<Element name="yearButton">
+		<param type="XPATH"
+			   value="//a[contains(text(),'2011')]" />
+	</Element>'
+	<Element name="matchButton">
+		<param type="XPATH"
+			   value="//span[contains(text(),'ICC World Cup 2011')]" />
+	</Element>'
+	<Element name="indiaButton">
+		<param type="XPATH"
+			   value="//span[contains(text(),'INDIA vs SRI LANKA, Final')]" />
+	</Element>'
+	<Element name="scoreButton">
+		<param type="XPATH"
+			   value="//a[contains(text(),'Scorecard')]" />
+	</Element>'
+	<Element name="runAdd1">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[8]"/>
+	</Element>'
+	<Element name="runAdd2">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[16]"/>
+	</Element>'
+	<Element name="runAdd3">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[24]"/>
+	</Element>'
+	<Element name="runAdd4">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[32]"/>
+	</Element>'
+	<Element name="runAdd5">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[40]"/>
+	</Element>'
+	<Element name="runAdd6">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[48]"/>
+	</Element>'
+	<Element name="runAdd7">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[56]"/>
+	</Element>'
+	<Element name="runAdd8">
+		<param type="XPATH"
+			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[64]"/>
+	</Element>'
+	<Element name="runAdd9">
+		<param type="XPATH"
+			   value="//body/div[1]/div[2]/div[4]/div[2]/div[2]/div[1]/div[11]/div[2]"/>
+	</Element>'
+	<Element name="totalScore">
+		<param type="XPATH"
+			   value="(//*[contains(text(),'274')])[2]"/>
+	</Element>'
+<!--	<Element name="runAdd10">-->
+<!--		<param type="XPATH"-->
+<!--			   value="((//*[text()='Batter'])[1]//following-sibling::div[2])//following::div[72]"/>-->
+<!--	</Element>'-->
+<!--	<Element name="runColumn">-->
+<!--		<param type="XPATH"-->
+<!--			   value="(//*[text()='Batter'])[1]//following-sibling::div[2]" />-->
+<!--	</Element>'-->
+</Elements>

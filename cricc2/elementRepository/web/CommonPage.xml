@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Element name="genericXpath">
+		<param type="XPATH"
+			value="//div[contains(text(),'274')]" />
+	</Element>'
+</Elements>
